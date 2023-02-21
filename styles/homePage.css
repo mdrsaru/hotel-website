@@ -1,0 +1,254 @@
+body {
+  overflow-x: hidden;
+}
+.main-navbar {
+  justify-content: space-around;
+}
+
+.navbar-items {
+  gap: 6rem;
+}
+
+.navbar-items a {
+  color: white !important;
+}
+
+.logo {
+  height: 30%;
+  width: 30%;
+}
+
+.navbar-container {
+  background-image: url('../images/homePageImage.png');
+  padding: 1rem;
+}
+.homepage-img {
+  width: 100%;
+  height: 400px;
+}
+
+.homepage-div {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+
+.homepage-container {
+  background-image: url('../images/homePageImage.png');
+}
+.homepage-text {
+  padding: 10rem 5rem;
+  color: #fff;
+}
+
+.homepage-text-1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.homepage-text-2 {
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: 'Adobe Garamond Pro';
+  line-height: 2px;
+}
+.homepage-text-3 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+.description {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+  color: #14274a;
+  padding: 2.5rem;
+}
+
+.room-card {
+  padding: 3rem;
+  border: none;
+  border-left: 1px solid #14274a;
+  border-radius: 0;
+}
+
+.room-card-1 {
+  margin-bottom: 2rem;
+}
+
+.card-title {
+  font-family: 'Adobe Garamond Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.card-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+
+  color: #14274a;
+}
+.testimonial-div {
+  text-align: center;
+  background-color: #e5e5e5;
+  padding: 3rem;
+}
+.testimonial-title {
+  font-family: 'Adobe Garamond Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.testimonial-description {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+
+  color: #14274a;
+}
+
+.testimonial-writer {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #14274a;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e0b973 !important;
+  width: 3rem;
+  height: 3rem;
+  opacity: 1;
+}
+.footer-container {
+  background-color: #14274a;
+  color: #fff;
+  padding: 2.5rem;
+  font-size: 16px;
+}
+
+.subscribe-btn {
+  background-color: #e0b973;
+}
+
+.subscribe-div {
+  border-radius: 7px;
+  border: 2px solid #e0b973;
+}
+
+/* Facility Page */
+
+.facility-container {
+  text-align: center;
+  background-image: url('../images/poolsideBar.png');
+}
+.facility-description {
+  text-transform: uppercase;
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 81px;
+}
+
+.facility-description-container {
+  text-align: center;
+}
+.facility-image {
+  height: 90%;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+
+/* Room Css */
+.room-card-container{
+  margin-bottom: 2rem;
+}
+
+.room-card-img{
+  height: 90%;
+}
+
+
+.room-card-title{
+  background-color:#14274A;
+  color:white;
+  text-align: center;
+  padding: 0.5rem;
+}
+.view-room-detail{
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.room-card-view-text{
+  font-family: 'Montserrat';
+font-style: normal;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+margin-left: 15px;
+}
+
+.room-card-btn{
+  background-color: #E0B973;
+  color:white;
+  padding: 1rem;
+  border: none;
+}
+
+.room-card-btn:hover{
+  background-color: #E0B973;
+}
+
+.card-1{
+  position: relative;
+  width: auto;
+  height: auto;
+  /* border: 3px solid #73AD21; */
+  color: white;
+  text-align: center;
+}
+
+.room-card-title-1{
+  position: absolute;
+  color: #14274A;
+  background-color: white;
+  bottom: 28px;
+  left: 42%;
+  /* right: 50%; */
+  /* text-align: center; */
+  padding: 1rem 3rem;
+}
+
+.parent-div{
+  /* border: 3px solid red; */
+  position: relative;
+}
+
+.title-div{
+  position: absolute;
+  bottom:28px;
+  background-color: white;
+  color:#14274A;
+  padding: 1rem 4rem;
+  right:40%;
+}
